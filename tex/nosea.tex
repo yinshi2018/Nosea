@@ -185,10 +185,9 @@ The location of the critical end point (CEP) of the QCD phase diagram is a popul
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Baryon number fluctuations and the fermion vacuum fluctuation}
 \label{sec:EoS}
-The calculation of the baryon number fluctuation can be done using the following formula,
+The kurtosis of the baryon number fluctuation is the core of our work, for the significant role it play in the experiment area of the QCD phase structure. The calculation of the baryon number fluctuation can be done using the following formula,
 \begin{align}
    \chi_n^{B}&=\frac{\partial^n}{\partial (\mu_B/T)^n}\frac{p}{T^4}\,,\label{eq:suscept}
 \end{align}
@@ -200,17 +199,53 @@ In which the $\mu_B=3\mu$ is the beryon chemical potential that is triple of the
   \chi_4^B&=\frac{1}{VT^3}\Big(\langle(\delta N_B)^4\rangle-3\langle(\delta N_B)^2\rangle^2\Big)\,,
 \end{align}
 The meaning of the angle brackets stands for the average value, and the $\delta N_B$ stands for the difference between the $N_B$ and $\langle N_B\rangle$ which reads $\delta N_B:=N_B - \langle N_B\rangle$.\par
-For the purpose of comparing our calculation with the experimental results, we divide the fourth and second order of the baryon number fluctuations to get the kurtosis which is the observable in the experiments, e.g.,$\kappa\sigma^2=\chi^B_4/\chi^B_2$. Here we investigate the relationship of the maximum value of the kurtosis and the fermion vacuum fluctuation.
-\par In this work we add a new cutoff scale into the functional renormalisation group flow equation to restrict the fermion vacuum fluctuation and study the behavior of the position of the critical end point under the different cutoff.\par
-From the previous work of the low energy effective theory under the FRG, the flow equation of the effective potential contain the full contribution of the fermion vacuum part throughout the integral interval which is cover from the infrared point to the ultraviolet point. The effect of the fermion vacuum contribution is studied in the mean field approximation, see \cite{Skokov:2010sf}.
+For the purpose of comparing our calculation with the experimental results, we divide the fourth and second order of the baryon number fluctuations to get the kurtosis which is the observable in the experiments, e.g.,$\kappa\sigma^2=\chi^B_4/\chi^B_2$. More details discussion about baryon number fluctuation see \cite{Fu:2015naa}. Here we investigate the relationship of the maximum value of the kurtosis and the fermion vacuum fluctuation.
+\par We find that the position of the critical end point would change with different fermion vacuum contribution we involve in our calculation. In this work we add a new cutoff scale into the functional renormalisation group flow equation to restrict the fermion vacuum fluctuation and study the behavior of the position of the critical end point under the different cutoff. From the previous work of the low energy effective theory under the FRG, the flow equation of the effective potential contain the full contribution of the fermion vacuum part throughout the integral interval which is cover from the infrared point to the ultraviolet point. The effect of the fermion vacuum contribution is studied in the mean field approximation, see \cite{Skokov:2010sf}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section{Polyakov-Quark-meson model}
+\section{Polyakov-Quark-meson model and the cutoff}
 \label{sec:pqm}
 
 
+
+
+This work is done under the two quark flavor Polyakov-quark-meson model. We give the effective action
+
+\begin{align}
+  \Gamma_k=&\int_x \bigg\{Z_{q,k}\bar{q} \Big [\gamma_\mu \partial_\mu -\gamma_0(\hat\mu+igA_0) \Big ]q \nonumber\\[2ex]
+  &+\frac{1}{2}Z_{\phi,k}(\partial_\mu \phi)^2\nonumber+h_k\bar{q}\big(T^0\sigma+i\gamma_5\vec{T}\cdot \vec{\pi}\big)q\\[2ex]
+  &+V_k(\rho)-c\sigma \bigg\}\,,
+\end{align}
+with the 4 dimension integral $\int_x=\int^{1/T}_0dx_0\int d^3x$. The $k$ is the FRG infrared (IR) cutoff scale which is running from the ultraviolet (UV) scale to 0. The meson field is defined as $\phi=(\sigma,\vec{\pi})$, and $\rho=\phi^2/2$. $\vec{T}$ is the generators of the $SU(N_f)$ group here we have $N_f=2$. The generators satisfy $\mathrm{Tr}(T^iT^j)=\frac{1}{2}\delta^{ij}$, $T^0=\frac{1}{\sqrt{2N_f}}\mathbb{1}_{N_f\times N_f}$. The $-c\sigma$ gives the chiral symmetry breaking in our theory. In this work we get the results under the local potential approximation (LPA), under which $\partial_tZ_{\phi,q}=0$, $\partial_t h_k=0$. The $t$ is RG time with $t=\mathrm{ln}(k/\Lambda)$. We choose the UV cutoff scale $\Lambda$ to 700$\mathrm{MeV}$. In the LPA situation, we focus on the flow of effective potential.
+ The flow equation can be written as
+\begin{align}
+\begin{split}
+   \partial_t V_k(\rho)=&\frac{k^4}{4\pi^2}\big[(N^2_f-1)l^{B,4}_{0}(\bar{m}^2_{\pi,k},\eta_{\phi,k};T)\\
+   &+l^{(B,4)}_{0}(\bar{m}^2_{\sigma,k},\eta_{\phi,k};T)\\
+   &-4N_cN_fl^{(F,4)}_{0}(\bar{m}^2_{q,k},\eta_{q,k};T,\mu)\big],
+\end{split}
+\end{align}
+The anomalous dimensions of the fermion and boson is all 0 here. The $l^{(F,4)}_{0}$ in the flow equation stands for the fermion threshold function. The analytical form of the threshold function is 
+\begin{align}
+\begin{split}
+l^{(F,d)}_{0}&(\bar{m}^2_{q,k},\eta_{q,k};T,\mu)=\frac{1}{z_q(d-1)\sqrt{1+\bar{m}^2_{q,k}}}(1-\frac{\eta_{q,k}}{d})\\
+&\times(1-n_F(\bar{m}^2_{q,k},z_q;T,\mu)-n_F(\bar{m}^2_{q,k},z_q;T,\mu))
+\end{split}
+\end{align}
+which contains all contribution of the fermion vacumm fluctuation. We take place this with another threshold function with no fermion vacuum part 
+\begin{align}
+\begin{split}
+j^{(F,d)}_{0}&(\bar{m}^2_{q,k},\eta_{q,k};T,\mu)=\frac{1}{z_q(d-1)\sqrt{1+\bar{m}^2_{q,k}}}(1-\frac{\eta_{q,k}}{d})\\
+&\times(-n_F(\bar{m}^2_{q,k},z_q;T,\mu)-n_F(\bar{m}^2_{q,k},z_q;T,\mu))
+\end{split}
+\end{align}
+And we devided the integral of the flow equation into two parts by the new cutoff scale $\Lambda_2$ between the IR and UV scales. The integral between the IR scale and $\Lambda_2$ is the flow equation with the fermion vacuum contribution the other side of the integral that between the $\Lambda_2$ and UV scale is the flow equation without the fermion vacuum contribution. Now we can control the quantity of the fermion vacuum part by changing the new cutoff $\Lambda_2$.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results and Summary}
+\label{sec:res}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[t]
@@ -219,64 +254,29 @@ From the previous work of the low energy effective theory under the FRG, the flo
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
+%
+ %%%%%%%%%%%
+\begin{table}[tb!]
+  \centering
+  \begin{tabular}{c||c|c|c|c|c|c|c|c}
+    $\Lambda_2\,\,(\mathrm{MeV})$ & 0 & 100 & 200 & 300 & 400 & 500 & 600 & 700 \rule{0pt}{2.6ex}\rule[-1.2ex]{0pt}{0pt}\\ \hline\hline
+    $T_c\,\,(\mathrm{MeV})$ &124& 123 & 117 &110 &98&97&95&89 \\\hline
+    $\mu_Bc\,\,(\mathrm{MeV})$ &335 &345 &435 &552&655&725&770&785\\\hline
 
-
-This work is done under the two quark flavor Polyakov-quark-meson model. We give the effective action
-
-\begin{align}
-  \Gamma_k=&\int_x \bigg\{Z_{q,k}\bar{q} \Big [\gamma_\mu \partial_\mu -\gamma_0(\hat\mu+igA_0) \Big ]q \nonumber\\[2ex]
-  &+\frac{1}{2}Z_{\phi,k}(\partial_\mu \phi)^2\nonumber+h_k(\rho)\bar{q}\big(T^0\sigma+i\gamma_5\vec{T}\cdot \vec{\pi}\big)q\\[2ex]
-  &+V_k(\rho)-c\sigma \bigg\}\,,
-\end{align}
-
-In the PQM model under the FRG approch we study the symmetry of the fields by the effective potential $V_k(\rho)$, then the flow equation of the effective potrntial is the center of our calculation. The flow equation can be written as
-\begin{align}
-\begin{split}
-   \partial_t V_k(\rho)=&\frac{k^4}{4\pi^2}\big[(N^2_f-1)l^{B,4}_{0}(\bar{m}^2_{\pi,k},\eta_{\phi,k};T)\\
-   &+l^{(B,4)}_{0}(\bar{m}^2_{\sigma,k},\eta_{\phi,k};T)\\
-   &-4N_cN_fl^{(F,4)}_{0}(\bar{m}^2_{q,k},\eta_{q,k};T,\mu)\big],
-\end{split}
-\end{align}
-The $l^{(F,4)}_{0}$ in the flow equation stands for the fermion threshold function.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{}
-\label{sec:num}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{}
-\label{sec:1}
-
-
-
-
-
-\section{Results and Summary}
-\label{sec:res}
-
+  \end{tabular}
+  \caption{The position of the critical point and the value of the cutoff $\Lambda_2$.} 
+  \label{tab:cut}
+\end{table}
+%%%%%%%%%%%%
+%
 
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{acknowledgments}
+\section{acknowledgments}
 
 The work was supported by the National Natural Science Foundation of China under Contracts Nos. 11775041.
-
-\end{acknowledgments}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\appendix
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 
 
