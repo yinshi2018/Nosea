@@ -14,8 +14,8 @@ showpacs,preprintnumbers,
  aps,
 %pra,
 %prb,
-prd,
-%prl,
+%prd,
+prl,
 %rmp,
 %prstab,
 %prstper,
@@ -137,7 +137,7 @@ prd,
 
 \preprint{}
 
-\title{Baryon number fluctuation and critical point
+\title{Baryon number fluctuation and critical end point
 }
 
 \author{Shi Yin}
@@ -183,45 +183,61 @@ We investigate the relationship between the peak value of baryon number fluctuat
 The location of the critical end point (CEP) of the QCD phase diagram is a popular research direction in the field of high energy physics. However, the physical property at high baryon chemical potential is hard to study in both theoretical and experimental. In the experimental field, the Relativistic Heavy Ion Collider (RHIC) that provides us with a lot of experimental data \cite{Adamczyk:2013dal,Luo:2015ewa,Luo:2017faz}.
 
 
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{}
-\label{sec:FRG}
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{}
+\section{Baryon number fluctuations and the fermion vacuum fluctuation}
 \label{sec:EoS}
-
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[t]
-\includegraphics[width=0.5\textwidth]{cp}
-\caption{The relation between the max baryon number fluctuation kurtosis value and the baryon chemical potential of the critical end point. }\label{fig:cp}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-
+The calculation of the baryon number fluctuation can be done using the following formula,
 \begin{align}
    \chi_n^{B}&=\frac{\partial^n}{\partial (\mu_B/T)^n}\frac{p}{T^4}\,,\label{eq:suscept}
 \end{align}
-which is also called as the $n$-th order generalized susceptibility of the baryon number. $ \chi_n^{B}$'s in \Eq{eq:suscept} are related to the cumulants of the baryon number distributions, e.g.,
+In which the $\mu_B=3\mu$ is the beryon chemical potential that is triple of the quark chemical potential. Then we can obtain the first to fourth order of the beryon number distribution,
 \begin{align}
   \chi_1^B&=\frac{1}{VT^3}\langle N_B \rangle\,,\\[2ex]
   \chi_2^B&=\frac{1}{VT^3}\langle(\delta N_B)^2\rangle\,,\\[2ex]
   \chi_3^B&=\frac{1}{VT^3}\langle(\delta N_B)^3\rangle\,,\\[2ex]
   \chi_4^B&=\frac{1}{VT^3}\Big(\langle(\delta N_B)^4\rangle-3\langle(\delta N_B)^2\rangle^2\Big)\,,
 \end{align}
+The meaning of the angle brackets stands for the average value, and the $\delta N_B$ stands for the difference between the $N_B$ and $\langle N_B\rangle$ which reads $\delta N_B:=N_B - \langle N_B\rangle$.\par
+For the purpose of comparing our calculation with the experimental results, we divide the fourth and second order of the baryon number fluctuations to get the kurtosis which is the observable in the experiments, e.g.,$\kappa\sigma^2=\chi^B_4/\chi^B_2$. Here we investigate the relationship of the maximum value of the kurtosis and the fermion vacuum fluctuation.
+\par In this work we add a new cutoff scale into the functional renormalisation group flow equation to restrict the fermion vacuum fluctuation and study the behavior of the position of the critical end point under the different cutoff.\par
+From the previous work of the low energy effective theory under the FRG, the flow equation of the effective potential contain the full contribution of the fermion vacuum part throughout the integral interval which is cover from the infrared point to the ultraviolet point. The effect of the fermion vacuum contribution is studied in the mean field approximation, see \cite{Skokov:2010sf}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+\section{Polyakov-Quark-meson model}
+\label{sec:pqm}
+
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[t]
+\includegraphics[width=0.5\textwidth]{cp}
+\caption{The relation between the maximum baryon number fluctuation kurtosis value and the baryon chemical potential of the critical end point. }\label{fig:cp}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+
+This work is done under the two quark flavor Polyakov-quark-meson model. We give the effective action
+
+\begin{align}
+  \Gamma_k=&\int_x \bigg\{Z_{q,k}\bar{q} \Big [\gamma_\mu \partial_\mu -\gamma_0(\hat\mu+igA_0) \Big ]q \nonumber\\[2ex]
+  &+\frac{1}{2}Z_{\phi,k}(\partial_\mu \phi)^2\nonumber+h_k(\rho)\bar{q}\big(T^0\sigma+i\gamma_5\vec{T}\cdot \vec{\pi}\big)q\\[2ex]
+  &+V_k(\rho)-c\sigma \bigg\}\,,
+\end{align}
+
+In the PQM model under the FRG approch we study the symmetry of the fields by the effective potential $V_k(\rho)$, then the flow equation of the effective potrntial is the center of our calculation. The flow equation can be written as
+\begin{align}
+\begin{split}
+   \partial_t V_k(\rho)=&\frac{k^4}{4\pi^2}\big[(N^2_f-1)l^{B,4}_{0}(\bar{m}^2_{\pi,k},\eta_{\phi,k};T)\\
+   &+l^{(B,4)}_{0}(\bar{m}^2_{\sigma,k},\eta_{\phi,k};T)\\
+   &-4N_cN_fl^{(F,4)}_{0}(\bar{m}^2_{q,k},\eta_{q,k};T,\mu)\big],
+\end{split}
+\end{align}
+The $l^{(F,4)}_{0}$ in the flow equation stands for the fermion threshold function.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
