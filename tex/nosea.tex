@@ -157,11 +157,8 @@ prl,
              %  but any date may be explicitly specified
 
 \begin{abstract}
-
 We investigate the relationship between the peak value of baryon number fluctuation kurtosis and the critical baryon chemical potential. At the same time, the freeze-out curves under different position of the critical end point. We control the position of the critical end point by a new cutoff scale which can remove the fermion vacuum fluctuation from the flow equations. This work is done under the low energy Polyakov-quark-meson model with the functional renormalization group approach.
-
 \end{abstract}
-
 %\pacs{Valid PACS appear here}% PACS, the Physics and Astronomy
 \pacs{11.30.Rd, %Chiral symmetries
          11.10.Wx, %Finite-temperature field theory
@@ -171,18 +168,15 @@ We investigate the relationship between the peak value of baryon number fluctuat
 %\keywords{Suggested keywords}%Use showkeys class option if keyword
                               %display desired
 \maketitle
-
 %\tableofcontents
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Introduction}
 \label{sec:int}
-
 The location of the critical end point (CEP) of the QCD phase diagram is a popular research direction in the field of high energy physics. However, the physical property at high baryon chemical potential that is the high density area is hard to study in both theoretical and experimental. In the experimental field, the Relativistic Heavy Ion Collider (RHIC) that provides us with a lot of experimental data at the high density part, see \cite{Adamczyk:2013dal,Luo:2015ewa,Luo:2017faz}.
 
-
+\par
+This paper has been divided into three parts. Firstly, we give a simple discuss of the baryon number fluctuation and the relationship between the fermion vacuum fluctuation and the position of the CEP. Secondly, the theoretical framework of the FRG as well as the Polyakov-quark-meson model are introduced. At the same time, the method we use to cutoff the fermion vacuum fluctuation is also discussed. Finally, we give our numarical results and the comparison of the lattice results, then end with a summary.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Baryon number fluctuations and the fermion vacuum fluctuation}
@@ -196,31 +190,19 @@ in which the $\mu_B=3\mu$ is the beryon chemical potential that is triple of the
   \chi_2^B&=\frac{1}{VT^3}\langle(\delta N_B)^2\rangle\,,\\[2ex]
   \chi_4^B&=\frac{1}{VT^3}\Big(\langle(\delta N_B)^4\rangle-3\langle(\delta N_B)^2\rangle^2\Big)\,,
 \end{align}
-The meaning of the angle brackets stands for the average value, and the $\delta N_B$ stands for the difference between the $N_B$ and $\langle N_B\rangle$ which reads $\delta N_B:=N_B - \langle N_B\rangle$.\par
-For the purpose of comparing our calculation with the experimental results, we divide the fourth and second order of the baryon number fluctuations to get the kurtosis which is the observable in the experiments, e.g.,$\kappa\sigma^2=\chi^B_4/\chi^B_2$. More details discussion about baryon number fluctuation see \cite{Fu:2015naa}. Here we investigate the relationship of the maximum value of the kurtosis and the fermion vacuum fluctuation.
+The meaning of the angle brackets stands for the average value, and the $\delta N_B$ stands for the difference between the $N_B$ and $\langle N_B\rangle$ which reads $\delta N_B:=N_B - \langle N_B\rangle$.\par For the purpose of comparing our calculation with the experimental and lattice results, we divide the fourth and second order of the baryon number fluctuations to get the kurtosis which is the observable in the experiments, e.g.,$\kappa\sigma^2=\chi^B_4/\chi^B_2$. More details discussion about baryon number fluctuation see e.g., \cite{Fu:2015naa}. Here we investigate the relationship of the maximum value of the kurtosis and the fermion vacuum fluctuation.
 \par We find that the position of the critical end point would change with different fermion vacuum contribution we involve in our calculation. In this work we add a new cutoff scale into the functional renormalisation group flow equation to restrict the fermion vacuum fluctuation and study the behavior of the position of the critical end point under the different cutoff. From the previous work of the low energy effective theory under the FRG, the flow equation of the effective potential contain the full contribution of the fermion vacuum part throughout the integral interval which is cover from the infrared point to the ultraviolet point. The effect of the fermion vacuum contribution is studied in the mean field approximation, see \cite{Skokov:2010sf}. We can tell that the fermion vacuum fluctuation can suppress the baryon number fluctuation at finite temperature and density. If the new cutoff scale get the value of the UV scale, the flow return to the previous which includes all the fermion vacuum term. If the cutoff scale get the value of the IR scale, the flow get the result of the mean-field approximation. The neglect of the fermion vacuum part is known as the no-sea approximation.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \section{Polyakov-Quark-meson model and the cutoff}
 \label{sec:pqm}
-
-
-
-
-This work is done under the two quark flavor Polyakov-quark-meson model. We give the effective action
-
+This work is done under the two quark flavor Polyakov-quark-meson model with functional renormalisation group approach. We give the effective action
 \begin{align}
   \Gamma_k=&\int_x \bigg\{Z_{q,k}\bar{q} \Big [\gamma_\mu \partial_\mu -\gamma_0(\hat\mu+igA_0) \Big ]q \nonumber\\[2ex]
   &+\frac{1}{2}Z_{\phi,k}(\partial_\mu \phi)^2\nonumber+h_k\bar{q}\big(T^0\sigma+i\gamma_5\vec{T}\cdot \vec{\pi}\big)q\\[2ex]
   &+V_k(\rho)-c\sigma \bigg\}\,,
 \end{align}
-with the 4 dimension integral $\int_x=\int^{1/T}_0dx_0\int d^3x$. The $k$ is the FRG infrared (IR) cutoff scale which is running from the ultraviolet (UV) scale to 0. The meson field is defined as $\phi=(\sigma,\vec{\pi})$, and $\rho=\phi^2/2$. $\vec{T}$ is the generators of the $SU(N_f)$ group here we have $N_f=2$. The generators satisfy $\mathrm{Tr}(T^iT^j)=\frac{1}{2}\delta^{ij}$, $T^0=\frac{1}{\sqrt{2N_f}}\mathbb{1}_{N_f\times N_f}$. The $-c\sigma$ gives the chiral symmetry breaking in our theory. In this work we get the results under the local potential approximation (LPA), under which $\partial_tZ_{\phi,q}=0$, $\partial_t h_k=0$. The $t$ is RG time with $t=\mathrm{ln}(k/\Lambda)$. We choose the UV cutoff scale $\Lambda$ to 700$\mathrm{MeV}$. The effective potential $V_k(\rho)$ involves the infermation of the meson chiral symmetry breaking. Here we solve the flow equation of the effective potential by the Taylor expansion around the expansion point $\kappa$. The expansed meson potential is $V_k(\rho)=\sum^{N_v}_{n=0}\frac{\lambda_{n,k}}{n!}(\rho-\kappa_k)^n$. In this work, we choose $N_v=5$ for the good convergence of the fix expansion point $\partial_t\kappa_k=0$. In order to get the pressure, the thermodynamical potential should be calculated. The definition of the thermodynamical potential is $\Omega[T,\mu]=V_{k=0}(\rho)+V_{glue}(L,\bar{L})-c\sigma$. The glue potential is a function of the traced Polyakov loop $L$ and the complex conjugate $\bar{L}$. They are in concerning with the gluonic background field $A_0$ by $L=\frac{1}{N_c}\langle \mathrm{Tr}\mathcal{P}\rangle$, $\bar{L}=\frac{1}{N_c}\langle \mathrm{Tr}\mathcal{P}^\dagger\rangle$ with $\mathcal{P}=\mathcal{P}\mathrm{exp}\big(ig\int^\beta_0d\tau A_0(\tau)\big)$. 
-
-
-
-In the LPA situation, we focus on the flow of effective potential. The flow equation can be written as
+with the 4 dimension integral $\int_x=\int^{1/T}_0dx_0\int d^3x$. The $k$ is the FRG infrared (IR) cutoff scale which is running from the ultraviolet (UV) scale to 0. The meson field is defined as $\phi=(\sigma,\vec{\pi})$, and $\rho=\phi^2/2$. $\vec{T}$ is the generators of the $SU(N_f)$ group here we have $N_f=2$. The generators satisfy $\mathrm{Tr}(T^iT^j)=\frac{1}{2}\delta^{ij}$, $T^0=\frac{1}{\sqrt{2N_f}}\mathbb{1}_{N_f\times N_f}$. The $-c\sigma$ gives the chiral symmetry breaking in our theory. In this work we get the results under the local potential approximation (LPA), under which $\partial_tZ_{\phi,q}=0$, $\partial_t h_k=0$. The $t$ is RG time with $t=\mathrm{ln}(k/\Lambda)$. We choose the UV cutoff scale $\Lambda$ to 700$\mathrm{MeV}$. The effective potential $V_k(\rho)$ involves the infermation of the meson chiral symmetry breaking. Here we solve the flow equation of the effective potential by the Taylor expansion around the expansion point $\kappa$. The expansed meson potential is $V_k(\rho)=\sum^{N_v}_{n=0}\frac{\lambda_{n,k}}{n!}(\rho-\kappa_k)^n$. In this work, we choose $N_v=5$ for the good convergence of the fix expansion point $\partial_t\kappa_k=0$. In order to get the pressure, the thermodynamical potential should be calculated. The definition of the thermodynamical potential is $\Omega[T,\mu]=V_{k=0}(\rho)+V_{glue}(L,\bar{L})-c\sigma$. The glue potential is a function of the traced Polyakov loop $L$ and the complex conjugate $\bar{L}$. They are in concerning with the gluonic background field $A_0$ by $L=\frac{1}{N_c}\langle \mathrm{Tr}\mathcal{P}\rangle$, $\bar{L}=\frac{1}{N_c}\langle \mathrm{Tr}\mathcal{P}^\dagger\rangle$ with $\mathcal{P}=\mathcal{P}\mathrm{exp}\big(ig\int^\beta_0d\tau A_0(\tau)\big)$. \par To obtain the CEP position of our system under different cutoff scale $\Lambda_2$, we use the Pion decay constant as the criterion. The Pion decay constant is the order parameter of the phase transition, given by $f_{\pi}=\langle \sigma\rangle$. The peak value of $\partial f_\pi/\partial T$ is used to determine the crossover line at low baryon chemical potential. When a relatively large difference of the $f_\pi$ appear appear between two adjacent temperatures, we believe the crossover is already convert to the first order phase transition. The temperature and baryon chemical potential between these two kinds of phase transition fix the position of the CEP.\par In the LPA situation, we focus on the flow of effective potential. The flow equation can be written as
 \begin{align}
 \begin{split}
    \partial_t V_k(\rho)=&\frac{k^4}{4\pi^2}\big[(N^2_f-1)l^{B,4}_{0}(\bar{m}^2_{\pi,k},\eta_{\phi,k};T)\\
@@ -247,6 +229,7 @@ j^{(F,d)}_{0}&(\bar{m}^2_{q,k},\eta_{q,k};T,\mu)=\frac{1}{z_q(d-1)\sqrt{1+\bar{m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results and Summary}
 \label{sec:res}
+We will give some numarical results and summarize the outcome in the last section. As mentioned in the previous section, we add a new cutoff scale to remove part of the fermion vacuum contribution from solving our FRG effective potential flow equation. Then we calculate the two and four order generalized susceptibilities and their ratio which is the kurtosis. The position of the CEP is also obtained by the $f_\pi$ under several baryon chemical potential. \par The Tab. \ref{tab:cut} gives the relationship between the new cutoff scale and the position of the CEP. We can easily tell from the table, with the decrease of the $\Lambda_2$ the baryon chemical potential of the CEP  b gradually gets low and the temperature of the CEP increases. In other words, the CEP is moving towards the left upper corner of the QCD phase diagram. When the cutoff comes to zero namely the no-sea approximation, the CEP even reached $\mu_B=335\,\,\mathrm{MeV}$ that is a vary small value. It is clear, there is a significant correlation between the CEP and the fermion vacuum fluctuation.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[t]
@@ -260,27 +243,21 @@ j^{(F,d)}_{0}&(\bar{m}^2_{q,k},\eta_{q,k};T,\mu)=\frac{1}{z_q(d-1)\sqrt{1+\bar{m
 \begin{table}[t]
   \centering
   \begin{tabular}{c||c|c|c|c|c|c|c|c}
-    $\Lambda_2\,\,(\mathrm{MeV})$ & 0 & 100 & 200 & 300 & 400 & 500 & 600 & 700 \rule{0pt}{2.6ex}\rule[-1.2ex]{0pt}{0pt}\\ \hline\hline
+    \hline
+    $\Lambda_2\,\,(\mathrm{MeV})$ & 0 & 100 & 200 & 300 & 400 & 500 & 600 & 700  \rule{0pt}{2.6ex}
+\rule[-1.2ex]{0pt}{0pt}\\ \hline\hline
     $T_c\,\,(\mathrm{MeV})$ &124& 123 & 117 &110 &98&97&95&89 \\\hline
     $\mu_Bc\,\,(\mathrm{MeV})$ &335 &345 &435 &552&655&725&770&785\\\hline
 
   \end{tabular}
-  \caption{The position of the critical point and the value of the cutoff $\Lambda_2$.} 
+  \caption{The position of the critical point and the corresponding value of the cutoff $\Lambda_2$.} 
   \label{tab:cut}
 \end{table}
 %%%%%%%%%%%%
 %
-
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{acknowledgments}
-
 The work was supported by the National Natural Science Foundation of China under Contracts Nos. 11775041.
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % The \nocite command causes all entries in a bibliography to be
