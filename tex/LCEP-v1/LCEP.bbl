@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{9}%
+\begin{thebibliography}{14}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -93,29 +93,80 @@
   {http://arxiv.org/abs/1508.06504} {arXiv:1508.06504 [hep-ph]} \BibitemShut
   {NoStop}%
 %%CITATION = ARXIV:1508.06504;%%
+\bibitem [{\citenamefont {Schaefer}\ and\ \citenamefont
+  {Wambach}(2005)}]{Schaefer:2004en}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont
+  {Schaefer}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Wambach}},\ }\href {\doibase 10.1016/j.nuclphysa.2005.04.012} {\bibfield
+  {journal} {\bibinfo  {journal} {Nucl. Phys.}\ }\textbf {\bibinfo {volume}
+  {A757}},\ \bibinfo {pages} {479} (\bibinfo {year} {2005})},\ \Eprint
+  {http://arxiv.org/abs/nucl-th/0403039} {arXiv:nucl-th/0403039 [nucl-th]}
+  \BibitemShut {NoStop}%
+%%CITATION = NUCL-TH/0403039;%%
 \bibitem [{\citenamefont {Skokov}\ \emph {et~al.}(2010)\citenamefont {Skokov},
-  \citenamefont {Friman}, \citenamefont {Nakano}, \citenamefont {Redlich},\
-  and\ \citenamefont {Schaefer}}]{Skokov:2010sf}%
+  \citenamefont {Stokic}, \citenamefont {Friman},\ and\ \citenamefont
+  {Redlich}}]{Skokov:2010wb}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
-  {Skokov}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Friman}},
-  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Nakano}}, \bibinfo
-  {author} {\bibfnamefont {K.}~\bibnamefont {Redlich}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {B.~J.}\ \bibnamefont {Schaefer}},\ }\href {\doibase
-  10.1103/PhysRevD.82.034029} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev.}\ }\textbf {\bibinfo {volume} {D82}},\ \bibinfo {pages} {034029}
-  (\bibinfo {year} {2010})},\ \Eprint {http://arxiv.org/abs/1005.3166}
-  {arXiv:1005.3166 [hep-ph]} \BibitemShut {NoStop}%
-%%CITATION = ARXIV:1005.3166;%%
+  {Skokov}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Stokic}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Friman}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Redlich}},\ }\href {\doibase
+  10.1103/PhysRevC.82.015206} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {C82}},\ \bibinfo {pages} {015206}
+  (\bibinfo {year} {2010})},\ \Eprint {http://arxiv.org/abs/1004.2665}
+  {arXiv:1004.2665 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1004.2665;%%
+\bibitem [{\citenamefont {Haas}\ \emph {et~al.}(2013)\citenamefont {Haas},
+  \citenamefont {Stiele}, \citenamefont {Braun}, \citenamefont {Pawlowski},\
+  and\ \citenamefont {Schaffner-Bielich}}]{Haas:2013qwp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont
+  {Haas}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Stiele}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Braun}}, \bibinfo
+  {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Schaffner-Bielich}},\ }\href
+  {\doibase 10.1103/PhysRevD.87.076004} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D87}},\ \bibinfo {pages}
+  {076004} (\bibinfo {year} {2013})},\ \Eprint {http://arxiv.org/abs/1302.1993}
+  {arXiv:1302.1993 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1302.1993;%%
+\bibitem [{\citenamefont {Herbst}\ \emph {et~al.}(2014)\citenamefont {Herbst},
+  \citenamefont {Mitter}, \citenamefont {Pawlowski}, \citenamefont {Schaefer},\
+  and\ \citenamefont {Stiele}}]{Herbst:2013ufa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Herbst}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Mitter}},
+  \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}}, \bibinfo
+  {author} {\bibfnamefont {B.-J.}\ \bibnamefont {Schaefer}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Stiele}},\ }\href {\doibase
+  10.1016/j.physletb.2014.02.045} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Lett.}\ }\textbf {\bibinfo {volume} {B731}},\ \bibinfo {pages} {248}
+  (\bibinfo {year} {2014})},\ \Eprint {http://arxiv.org/abs/1308.3621}
+  {arXiv:1308.3621 [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1308.3621;%%
+\bibitem [{\citenamefont {Fu}\ \emph {et~al.}(2016)\citenamefont {Fu},
+  \citenamefont {Pawlowski}, \citenamefont {Rennecke},\ and\ \citenamefont
+  {Schaefer}}]{Fu:2016tey}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont
+  {Fu}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Pawlowski}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rennecke}}, \ and\
+  \bibinfo {author} {\bibfnamefont {B.-J.}\ \bibnamefont {Schaefer}},\ }\href
+  {\doibase 10.1103/PhysRevD.94.116020} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D94}},\ \bibinfo {pages}
+  {116020} (\bibinfo {year} {2016})},\ \Eprint
+  {http://arxiv.org/abs/1608.04302} {arXiv:1608.04302 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1608.04302;%%
 \bibitem [{\citenamefont {Wetterich}(1993)}]{Wetterich:1992yh}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
   {Wetterich}},\ }\href {\doibase 10.1016/0370-2693(93)90726-X} {\bibfield
   {journal} {\bibinfo  {journal} {Phys. Lett.}\ }\textbf {\bibinfo {volume}
-  {B301}},\ \bibinfo {pages} {90} (\bibinfo {year} {1993})},\ \Eprint
-  {http://arxiv.org/abs/1710.05815} {arXiv:1710.05815 [hep-th]} \BibitemShut
+  {B301}},\ \bibinfo {pages} {90} (\bibinfo {year} {1993})}\BibitemShut
   {NoStop}%
-%%CITATION = ARXIV:1710.05815;%%
+%%CITATION = PHLTA,B301,90;%%
 \bibitem [{\citenamefont {Bazavov}\ \emph
   {et~al.}(2017{\natexlab{a}})\citenamefont {Bazavov} \emph
   {et~al.}}]{Bazavov:2017dus}%
@@ -155,4 +206,24 @@
   {062005} (\bibinfo {year} {2013})},\ \Eprint {http://arxiv.org/abs/1305.5161}
   {arXiv:1305.5161 [hep-lat]} \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1305.5161;%%
+\bibitem [{\citenamefont {Braun}\ \emph {et~al.}(2019)\citenamefont {Braun},
+  \citenamefont {Fu}, \citenamefont {Huang}, \citenamefont {Ihssen},
+  \citenamefont {Horak}, \citenamefont {Leonhardt}, \citenamefont {Pawlowski},
+  \citenamefont {Pospiech}, \citenamefont {Rennecke}, \citenamefont
+  {Schneider}, \citenamefont {Wen}, \citenamefont {Wink},\ and\ \citenamefont
+  {Yin}}]{fQCD}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Braun}}, \bibinfo {author} {\bibfnamefont {W.-j.}\ \bibnamefont {Fu}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Huang}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Ihssen}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Horak}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Leonhardt}}, \bibinfo {author} {\bibfnamefont {J.~M.}\
+  \bibnamefont {Pawlowski}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Pospiech}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rennecke}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Schneider}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Wen}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Wink}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Yin}},\ }\href@noop {} {\  (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
 \end{thebibliography}%
