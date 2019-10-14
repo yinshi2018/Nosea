@@ -1,0 +1,14 @@
+This version solves the FRG equations in a Taylor expansion with fixed point, and tune the expansion point automatically.
+ Calculating different temperature and chemical potential points. 
+We reduce Nv to Nv=5.
+Calculate baryon number fluctuations.
+Double precision.
+We change the integral variable k to t.
+we expand chemical potential with mu^2.
+PQM
+Self-consistent calculations.
+full parameters.
+p0=sqrt((pi*(T-1./hc)*exp(-k/T/5.)+pi*1./hc)**2+k**2)
+expand chemical potential with mu.
+symmetric with mu and -mu.
+new full parameter
